@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <title>Weather Watcher</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="./json_weather.css">
+</head>
+<body>
+  <h1> weather watcher </h1>
+  
+  <div class= "row">
+    <div class="col-md-4">
+      <span id ="sunglass" class="glyphicon glyphicon-sunglasses" aria-hidden="true" ></span>
+  <span id ="lightning"class="glyphicon glyphicon-flash" aria-hidden="true" style = 'color: yellow'></span>
+  <span id ="rain" class="glyphicon glyphicon-tint" style= 'color: lightblue' aria-hidden="true" ></span>
+  <span id ="snow" class="glyphicon glyphicon-asterisk" aria-hidden="true" style='color: white' ></span>
+  <div><p  id="weather"></p></div>
+  </div>
+  <div class="col-md-4">
+    <form role="form" class=" form-search">
+      <input class=" form-control search-query" type = "text" name = "city" id = "search-city" placeholder="Enter city"></input><br>
+      <input class = "form-control" type = "submit" name = "submit-city" id = "enter-city"></input>
+    </form>
+    <div id="results_of_cities"></div>
+  </div>
+  <div class = "col-md-4">
+    <p id = "phrase">Find a City and check the weather!</p>
+  </div>
+  </div>
+
+  
+  </div>
+<!--
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="./json_weatherapp.js"></script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-image: url("assets/background-image.jpg");
+  /*background-color: #ccc;*/
+}
+
+a {
+  cursor: pointer;
+  color: #ccc;
+}
+
+h1 {
+  color: white;
+}
+
+#weather {
+  color: white;
+  font-size: 2em;
+  margin-left: 1em;
+}
+#results_of_cities {
+
+}
+.glyphicon {
+  font-size: 150px;
+  opacity: .2;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+#phrase {
+  float: right;
+  margin-right: 1em;
+  font-size: 3em;
+  color: white;
+  word-wrap: break-word;
+  width: 100%;
+}
